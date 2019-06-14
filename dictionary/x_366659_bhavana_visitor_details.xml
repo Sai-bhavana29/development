@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="visitor details" max_length="40" name="x_366659_bhavana_visitor_details" sizeclass="1" type="collection">
+        <element choice="1" label="contacttype" max_length="100" name="contacttype" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="email" value="email"/>
+            </choice>
+        </element>
+        <element label="contact type2" max_length="100" name="contact_type2" type="string"/>
+        <element label="email" max_length="100" name="email" type="string"/>
+        <element label="in time" max_length="100" name="in_time" type="glide_duration"/>
+        <element label="name" max_length="100" name="name" type="string"/>
+        <element label="out time" max_length="100" name="out_time" type="glide_duration"/>
+        <element label="phne number" max_length="100" name="phne_number" type="string"/>
+        <element label="request date" max_length="100" name="request_date" type="glide_date_time"/>
+    </element>
+</database>
