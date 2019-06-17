@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="computer lab incident" max_length="40" name="x_366659_bhavana_computer_lab_incident" type="collection">
+        <element label="category" max_length="100" name="category" type="string"/>
+        <element choice="1" label="category1" max_length="100" name="category1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="hardware" value="hw"/>
+                <element inactive_on_update="false" label="network" value="nw"/>
+                <element inactive_on_update="false" label="software" value="sw"/>
+            </choice>
+        </element>
+        <element label="computer" max_length="100" name="computer" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_366659_bhavana_visitor_details" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>hardware</label>
+            <language>en</language>
+            <name>x_366659_bhavana_visitor_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-14 05:30:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6df525d9db0233004c5c7b38689619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-14 05:30:57</sys_updated_on>
+            <value>hh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>software</label>
+            <language>en</language>
+            <name>x_366659_bhavana_visitor_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-14 05:31:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba0661d9db0233004c5c7b3868961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-14 05:31:17</sys_updated_on>
+            <value>sw</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_366659_bhavana_visitor_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-14 05:30:57</sys_created_on>
+            <sys_id>dc06ed99db0233004c5c7b3868961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="bhavana" source="x_366659_bhavana">fa71c8f0db4233004c5c7b3868961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="bhavana">fa71c8f0db4233004c5c7b3868961912</sys_scope>
+            <sys_update_name>sys_choice_x_366659_bhavana_visitor_details_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-14 05:30:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

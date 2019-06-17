@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="category1" label="Category1" language="en" table="x_366659_bhavana_computer_lab_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>category1</element>
+            <help/>
+            <hint/>
+            <label>Category1</label>
+            <language>en</language>
+            <name>x_366659_bhavana_computer_lab_incident</name>
+            <plural>Category1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-16 17:23:27</sys_created_on>
+            <sys_id>854cde46db0233004c5c7b38689619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Category1</sys_name>
+            <sys_package display_value="bhavana" source="x_366659_bhavana">fa71c8f0db4233004c5c7b3868961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="bhavana">fa71c8f0db4233004c5c7b3868961912</sys_scope>
+            <sys_update_name>sys_documentation_x_366659_bhavana_computer_lab_incident_category1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-16 17:23:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

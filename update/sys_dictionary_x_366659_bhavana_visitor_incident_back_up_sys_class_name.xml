@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-13 04:59:51</sys_created_on>
-        <sys_id>cf451cc5db0233004c5c7b386896194f</sys_id>
+        <sys_id>70ad1555db0233004c5c7b386896190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Class</sys_name>
         <sys_package display_value="bhavana" source="x_366659_bhavana">fa71c8f0db4233004c5c7b3868961912</sys_package>
         <sys_policy/>
         <sys_scope display_value="bhavana">fa71c8f0db4233004c5c7b3868961912</sys_scope>
         <sys_update_name>sys_dictionary_x_366659_bhavana_visitor_incident_back_up_sys_class_name</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 04:59:51</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-14 04:54:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

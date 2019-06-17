@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="visitor details" max_length="40" name="x_366659_bhavana_visitor_details" sizeclass="1" type="collection">
+        <element choice="1" label="Category" max_length="100" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="hardware" value="hh"/>
+                <element inactive_on_update="false" label="software" value="sw"/>
+            </choice>
+        </element>
         <element choice="1" label="contacttype" max_length="100" name="contacttype" type="choice">
             <choice>
                 <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
@@ -8,10 +14,24 @@
         </element>
         <element label="contact type2" max_length="100" name="contact_type2" type="string"/>
         <element label="email" max_length="100" name="email" type="string"/>
+        <element label="facility user" max_length="32" name="facility_user" reference="sys_user" type="reference"/>
         <element label="in time" max_length="100" name="in_time" type="glide_duration"/>
+        <element choice="1" label="mad" max_length="100" name="mad" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+            </choice>
+        </element>
         <element label="name" max_length="100" name="name" type="string"/>
         <element label="out time" max_length="100" name="out_time" type="glide_duration"/>
         <element label="phne number" max_length="100" name="phne_number" type="string"/>
         <element label="request date" max_length="100" name="request_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="user" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
     </element>
 </database>
